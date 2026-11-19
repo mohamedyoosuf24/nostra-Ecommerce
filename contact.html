@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="offer-bar">
+        <p>Sign Up and GET 20% OFF for your first Order</p>
+        <span class="offer-close" onclick="this.parentElement.style.display='none'">×</span>
+    </div>
+
+    <nav class="navbar">
+        <h1 class="logo">Nostra</h1>
+
+        <div class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#new-arrival">New Arrival</a>
+            <a href="index.html#most-wanted">Most Wanted</a>
+            <a href="collection .html">Collections</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <button class="menu-button" id="menu-button" aria-label="Open menu">☰</button>
+    </nav>
+
+    <!-- <div class="page-heading"> -->
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you</p>
+    </div>
+
+    <main>
+        <section class="contact-container">
+            <!-- <h1>Get in Touch</h1> -->
+            <!-- <p>Have a question or feedback? Send us a message.</p> -->
+
+            <form class="contact-form" id="contact-form">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="Enter subject" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Write your message..." required></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2>Nostra</h2>
+        <p>Discover your style with Nostra.</p>
+        <p>© 2026 Nostra. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
